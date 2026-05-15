@@ -263,8 +263,8 @@ main {
     background-image: url(Portraits/20200727-Lucie_Patten-5.jpg);
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-size: 180%;
+    background-position: 10% center;
     min-height: 100vh;
     padding: 0;
     margin: 0;
@@ -514,10 +514,9 @@ main {
 
 /* Philosophy */
 
-
 #philosophy {
     background-image: url(Portraits/MEJO_489-20260209_Update-6.jpg);
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center right;
@@ -610,9 +609,7 @@ main {
 }
 /*------------- MEDIUM SCREENS (COL-MD-) -----------------------*/
 @media screen and (min-width: 768px) {
-    #full_hero {
-        background-attachment: fixed;
-    }
+    
 }
 /*------------- LARGE SCREENS (COL-LG-) ------------------------*/
 @media screen and (min-width: 992px) {
