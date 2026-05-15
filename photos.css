@@ -188,7 +188,7 @@ header {
 
             .nav-item a {
                 color: white;
-                min-height: calc( 100vh / 6 );
+                min-height: calc( 100svh / 6 );
                 display: flex;
                 flex-flow: row wrap;
                 justify-content: center;
@@ -261,11 +261,11 @@ main {
 
 #full_hero {
     background-image: url(Portraits/20200727-Lucie_Patten-5.jpg);
-    background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: 180%;
+    background-size: cover;
     background-position: 10% center;
-    min-height: 100vh;
+    background-attachment: fixed;
+    min-height: 100svh;
     padding: 0;
     margin: 0;
 }
@@ -302,7 +302,7 @@ main {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    height: 200vh;
+    height: 200svh;
     overflow: hidden;
     border-top: solid white 0.5em;
     border-bottom: solid white 0.5em;
@@ -360,7 +360,7 @@ main {
             }
 
             100% {
-                transform: translateY(-380vh);
+                transform: translateY(-380svh);
             }
         }
 
@@ -373,7 +373,7 @@ main {
                 }
 
                 100% {
-                    transform: translateY(-480vh);
+                    transform: translateY(-480svh);
                 }
             }
 
@@ -446,7 +446,7 @@ main {
     .gallery-row {
         position: relative;
         width: 100%;
-        height: 20vh;
+        height: 20svh;
         overflow: hidden;
         margin: 1.5em 0;
     }
@@ -466,7 +466,7 @@ main {
 
         /* IMAGES */
         .gallery-track img {
-            height: 20vh;
+            height: 20svh;
             width: auto;
             object-fit: cover;
             flex-shrink: 0;
@@ -501,12 +501,12 @@ main {
         @media screen and (max-width: 768px) {
 
             .gallery-row {
-                height: 16vh;
+                height: 16svh;
                 margin: 1em 0;
             }
 
             .gallery-track img {
-                height: 16vh;
+                height: 16svh;
             }
 
         }
@@ -516,11 +516,11 @@ main {
 
 #philosophy {
     background-image: url(Portraits/MEJO_489-20260209_Update-6.jpg);
-    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center right;
-    height: 100vh;
+    background-attachment: fixed;
+    min-height: 100svh;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -551,15 +551,12 @@ main {
 
 /* CTA */
 
-
-
-
 #ending {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center right;
-    height: 100vh;
+    height: 100svh;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -587,45 +584,14 @@ main {
     margin-bottom: 2em;
 }
 
+@media screen and (max-width: 768px) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*------------- SMALL SCREENS (COL-SM-) ------------------------*/
-@media screen and (min-width: 576px) {
-    
-}
-/*------------- MEDIUM SCREENS (COL-MD-) -----------------------*/
-@media screen and (min-width: 768px) {
-    
-}
-/*------------- LARGE SCREENS (COL-LG-) ------------------------*/
-@media screen and (min-width: 992px) {
-    
-}
-/*------------- EXTRA LARGE SCREENS (COL-XL-) ------------------*/
-@media screen and (min-width: 1200px) {
-    
-}
-/*[END] -------- ENORMOUS SCREENS (COL-XL-) ----------------------*/
-@media screen and (min-width: 1400px) {
+    #full_hero,
+    #philosophy {
+        background-attachment: scroll;
+    }
 
 }
-
-
-
 
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ FOOTER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
@@ -637,30 +603,6 @@ footer {
     bottom: 0;
     left: 5vw;
 }
-
-/*------------- SMALL SCREENS (COL-SM-) ------------------------*/
-@media screen and (min-width: 576px) {
-    
-}
-/*------------- MEDIUM SCREENS (COL-MD-) -----------------------*/
-@media screen and (min-width: 768px) {
-        
-}
-/*------------- LARGE SCREENS (COL-LG-) ------------------------*/
-@media screen and (min-width: 992px) {
-    
-}
-/*------------- EXTRA LARGE SCREENS (COL-XL-) ------------------*/
-@media screen and (min-width: 1200px) {
-    
-}
-/*[END] -------- ENORMOUS SCREENS (COL-XL-) ----------------------*/
-@media screen and (min-width: 1400px) {
-
-}
-
-
-
 
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ OTHER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 

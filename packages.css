@@ -39,14 +39,6 @@ body {
     text-decoration: none;
 }
 
-/*------------- SMALL SCREENS (COL-SM-) ------------------------*/
-@media screen and (min-width: 576px) {
-
-}
-/*------------- MEDIUM SCREENS (COL-MD-) -----------------------*/
-@media screen and (min-width: 768px) {
-        
-}
 /*------------- LARGE SCREENS (COL-LG-) ------------------------*/
 @media screen and (min-width: 992px) {
     body  {
@@ -170,7 +162,7 @@ header {
 
             .nav-item a {
                 color: white;
-                min-height: calc( 100vh / 6 );
+                min-height: calc( 100svh / 6 );
                 display: flex;
                 flex-flow: row wrap;
                 justify-content: center;
@@ -419,8 +411,8 @@ main {
             .slideshow {
                 position: relative;
                 width: 50%;
-                height: 40vh;
-                max-height: 40vh;
+                height: 40svh;
+                max-height: 40svh;
                 overflow: hidden;
                 background: #000;
             }
@@ -488,12 +480,12 @@ main {
             /* Mobile optimization */
             @media (max-width: 768px) {
                 .slideshow {
-                    height: 100vh;
-                    max-height: 40vh;
+                    height: 100svh;
+                    max-height: 40svh;
                 }
 
                 .slide img {
-                    max-height: 100vh;
+                    max-height: 100svh;
                     object-fit: cover;
                 }
             }
@@ -501,8 +493,8 @@ main {
 /*------------- SMALL SCREENS (COL-SM-) ------------------------*/
 @media screen and (min-width: 576px) {
     .slideshow {
-        height: 70vh;
-        max-height: 70vh;
+        height: 70svh;
+        max-height: 70svh;
     }
 }
 /*------------- MEDIUM SCREENS (COL-MD-) -----------------------*/
@@ -541,8 +533,8 @@ main {
     }
 
     .slideshow {
-        height: 100vh;
-        max-height: 100vh;
+        height: 100svh;
+        max-height: 100svh;
     }
 
     main {
@@ -551,16 +543,6 @@ main {
    
 }
     
-/*------------- iPad Air & Pro -----------------------*/
-@media screen and (min-height: 100px) {
-
-}
-
-/* ------------- My Samsung Monitor ------------------------*/
-@media screen and (min-width: 1000px) {
-    
-}
-
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ FOOTER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 /*[START] ------ EXTRA SMALL SCREENS (COL-) ---------------------*/
 
@@ -569,27 +551,6 @@ footer {
     position: fixed;
     bottom: 0;
     left: 5vw;
-}
-
-/*------------- SMALL SCREENS (COL-SM-) ------------------------*/
-@media screen and (min-width: 576px) {
-    
-}
-/*------------- MEDIUM SCREENS (COL-MD-) -----------------------*/
-@media screen and (min-width: 768px) {
-        
-}
-/*------------- LARGE SCREENS (COL-LG-) ------------------------*/
-@media screen and (min-width: 992px) {
-    
-}
-/*------------- EXTRA LARGE SCREENS (COL-XL-) ------------------*/
-@media screen and (min-width: 1200px) {
-    
-}
-/*[END] -------- ENORMOUS SCREENS (COL-XL-) ----------------------*/
-@media screen and (min-width: 1400px) {
-
 }
 
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ OTHER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/

@@ -191,7 +191,7 @@ header {
 
             .nav-item a {
                 color: white;
-                min-height: calc( 100vh / 6 );
+                min-height: calc( 100svh / 6 );
                 display: flex;
                 flex-flow: row wrap;
                 justify-content: center;
@@ -284,7 +284,7 @@ img {
 @media screen and (min-width: 992px) {
 
     img {
-        max-height: 75vh;
+        max-height: 75svh;
         padding: 7ch;
     }
 }
