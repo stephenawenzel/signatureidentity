@@ -261,10 +261,10 @@ main {
 
 #full_hero {
     background-image: url(Portraits/20200727-Lucie_Patten-5.jpg);
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 0;
+    background-position: center center;
     min-height: 100vh;
     padding: 0;
     margin: 0;
@@ -512,23 +512,7 @@ main {
         }
 
 
-/* Philosophy
-
-
-
-    
-        <section id="philosophy" class="col-12 col-sm-12">
-            <article id="philosophy-overlay">
-                <h3>The Philosophy</h3>
-                <p>
-                I believe portraits become most meaningful when they reflect not only how someone looks, but who they are and the atmosphere surrounding their story.
-                </p>
-            </article>
-        </section>
-        
-        
-        
-        */
+/* Philosophy */
 
 
 #philosophy {
@@ -626,7 +610,9 @@ main {
 }
 /*------------- MEDIUM SCREENS (COL-MD-) -----------------------*/
 @media screen and (min-width: 768px) {
-        
+    #full_hero {
+        background-attachment: fixed;
+    }
 }
 /*------------- LARGE SCREENS (COL-LG-) ------------------------*/
 @media screen and (min-width: 992px) {
