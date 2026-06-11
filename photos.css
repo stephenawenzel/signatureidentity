@@ -260,9 +260,7 @@ main {
 /* Hero Section */
 
 #opener {
-    position: relative;
     min-height: 100vh;
-    overflow: hidden;
     padding: 0;
 }
 
