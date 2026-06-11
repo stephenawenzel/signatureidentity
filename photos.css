@@ -698,7 +698,7 @@ main {
 /*[START] ------ EXTRA SMALL SCREENS (COL-) ---------------------*/
 
 footer {
-    color: white;
+    color: green;
     position: fixed;
     bottom: 0;
     left: 5vw;
